@@ -1,2 +1,29 @@
 @import './config';
-@import './homepage';
+@import 'components/header';
+@font-face {
+  font-family:icon;
+  src:url(../fonts/icon/icomoon.woff),url(../fonts/icomoon.ttf),url(../fonts/icomoon.svg),url(../fonts/icomoon.eot);
+}
+@font-face {
+  font-family:"Segoe UI";
+  src:url(../fonts/segoeUI/SegoeUIBold.woff);
+  font-weight: 800;
+}
+@font-face {
+  font-family:"Segoe UI";
+  src:url(../fonts/segoeUI/SegoeUILight.woff);
+  font-weight: 200;
+}
+@font-face {
+  font-family:"Segoe UI";
+  src:url(../fonts/segoeUI/SegoeUIRegular.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family:"Segoe UI";
+  src:url(../fonts/segoeUI/SegoeUIRegular.woff);
+  font-weight: 600;
+}
+a{
+  text-decoration: none;
+}

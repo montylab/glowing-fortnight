@@ -1,0 +1,39 @@
+@import '../config';
+@import '../mixins';
+
+.Header {
+  height: 140px;
+  display: flex;
+  background: $bgPrimary;
+  line-height: 140px;
+  .logo {
+    img{
+      width:370px;
+      height: 79px;
+    }
+  }
+  .links{
+    margin-left: auto;
+    margin-right: 0;
+    .link{
+      color: $textPrimary;
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .lang{
+      display: inline-block;
+      a{
+        color:$textPrimary;
+        &+a {
+          border-left: 1px solid $textPrimary;
+        }
+        &.active{
+           font-weight: 700;;
+        }
+      }
+
+    }
+  }
+}
+
